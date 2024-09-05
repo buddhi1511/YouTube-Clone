@@ -1,0 +1,19 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.left-section {
+  height: 50px;
+  background-color: lightblue;
+}
+
+.middle-section {
+  height: 50px;
+  background-color: lightpink;
+}
+
+.right-section {
+  height: 50px;
+  background-color: lightblue;
+}
