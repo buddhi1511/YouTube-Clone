@@ -1,19 +1,93 @@
 .header {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .left-section {
   height: 50px;
+  width: 300px;
   background-color: lightblue;
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  width: 8%;
+  margin-left: 6%;
+}
+
+.youtube-logo-icon {
+  width: 29%;
+  margin-left: 6%;
 }
 
 .middle-section {
   height: 50px;
   background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.search-bar {
+    width: 60%;
+    height: 40px;
+    border-radius: 20px 0 0 20px;
+    padding: 20px;
+}
+
+.search-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.search-icon {
+  width: 25px;
+}
+
+.voice-search-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voice-search-icon {
+  width: 25px;
 }
 
 .right-section {
   height: 50px;
+  width: 300px;
   background-color: lightblue;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 2%;
+}
+
+.upload-icon {
+  width: 25px;
+  margin-right: 20px;
+}
+
+.notifications-icon {
+  width: 25px;
+  margin-right: 20px;
+}
+
+.profile-icon {
+  width: 25px;
 }
