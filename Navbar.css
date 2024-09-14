@@ -8,24 +8,53 @@
 .sidebar-icon-1 {
   height: 80px;
   background-color: lightcyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar-icon-2 {
   height: 80px;
   background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar-icon-3 {
   height: 80px;
   background-color: lightcyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar-icon-4 {
   height: 80px;
   background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar-icon-5 {
   height: 80px;
   background-color: lightcyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar-icon {
+  width: 30%;
+  margin-bottom: 7%;
+}
+
+.nav-bar-text {
+  font-size: 10px;
 }
