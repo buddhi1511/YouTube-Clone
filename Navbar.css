@@ -2,12 +2,12 @@
   display: grid;
   height: 100vh;
   grid-template-rows: 80px 80px 80px 80px 1fr;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
 
 .sidebar-icon-1 {
   height: 80px;
-  background-color: lightcyan;
+  /* background-color: lightcyan; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,7 +16,7 @@
 
 .sidebar-icon-2 {
   height: 80px;
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,7 +25,7 @@
 
 .sidebar-icon-3 {
   height: 80px;
-  background-color: lightcyan;
+  /* background-color: lightcyan; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,7 +34,7 @@
 
 .sidebar-icon-4 {
   height: 80px;
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,7 +43,7 @@
 
 .sidebar-icon-5 {
   height: 80px;
-  background-color: lightcyan;
+  /* background-color: lightcyan; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,5 +56,5 @@
 }
 
 .nav-bar-text {
-  font-size: 10px;
+  font-size: 11px;
 }
