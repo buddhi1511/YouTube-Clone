@@ -16,14 +16,31 @@
   padding-left: 10px;
 }
 
-.menu-icon {
-  width: 9%;
+.menu {
+  padding: 0;
+  margin: 0;
+  width: 40px;
+  height: 40px;
   margin-left: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu:hover {
+  background-color: #cccccc;
+  border-radius: 20px;
+}
+
+.menu-icon {
+  width: 65%;
+  /* margin-left: 6%; */
+  padding: 5px;
 }
 
 .youtube-logo-icon {
   width: 32%;
-  margin-left: 6%;
+  margin-left: 5%;
 }
 
 .middle-section {
@@ -63,7 +80,6 @@
 }
 
 .search-button:hover {
-  background-color: #cccccc;
   cursor: pointer;
 }
 

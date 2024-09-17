@@ -5,7 +5,7 @@
   /* background-color: blueviolet; */
 }
 
-.sidebar-icon-1 {
+.sidebar-icon {
   height: 80px;
   /* background-color: lightcyan; */
   display: flex;
@@ -14,40 +14,8 @@
   align-items: center;
 }
 
-.sidebar-icon-2 {
-  height: 80px;
-  /* background-color: lightcoral; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.sidebar-icon-3 {
-  height: 80px;
-  /* background-color: lightcyan; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.sidebar-icon-4 {
-  height: 80px;
-  /* background-color: lightcoral; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.sidebar-icon-5 {
-  height: 80px;
-  /* background-color: lightcyan; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.sidebar-icon:hover {
+  background-color: #cccccc;
 }
 
 .nav-bar-icon {
