@@ -2,12 +2,10 @@
   display: grid;
   height: 100vh;
   grid-template-rows: 80px 80px 80px 80px 1fr;
-  /* background-color: blueviolet; */
 }
 
 .sidebar-icon {
   height: 80px;
-  /* background-color: lightcyan; */
   display: flex;
   flex-direction: column;
   justify-content: center;

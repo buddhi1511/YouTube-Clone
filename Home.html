@@ -26,15 +26,33 @@
       <input class="search-bar" type="search" placeholder="Search">
       <button class="search-button">
         <img class="search-icon" src="Icons/search.svg">
+        <div class="tooltip">
+          Search
+        </div>
       </button>
       <button class="voice-search-button">
         <img class="voice-search-icon" src="Icons/mic.png">
+        <div class="tooltip">
+          Search with your voice
+        </div>
       </button>
     </div>
     <div class="right-section">
-      <img class="upload-icon" src="Icons/upload.svg">
-      <img class="notifications-icon" src="Icons/notifications.svg">
-      <img class="profile-icon" src="Icons/profile.webp">
+      <div class="upload-container">
+        <img class="upload-icon" src="Icons/upload.svg">
+        <div class="tooltip">
+          Create
+        </div>
+      </div>
+      <div class="notifications-container">
+        <img class="notifications-icon" src="Icons/notifications.svg">
+        <div class="tooltip">
+          Notifications
+        </div>
+      </div>
+      <div class="profile-container">
+        <img class="profile-icon" src="Icons/profile.webp">
+      </div>
     </div>
   </header>
   <!-- header end -->
@@ -86,253 +104,273 @@
       <!-- video preview start -->
       <div class="video-preview-page">
         <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/mosh.webp">
-            <div class="video-time">
-              48:17
+          <a class="link" href="https://www.youtube.com/watch?v=W6NZfCO5SIk&t=10s&pp=ygU9SmF2YVNjcmlwdCBUdXRvcmlhbCBmb3IgQmVnaW5uZXJzOiBMZWFybiBKYXZhU2NyaXB0IGluIDEgSG91cg%3D%3D">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/mosh.webp">
+              <div class="video-time">
+                48:17
+              </div>
             </div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel pictures/mosh.jpg">
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel pictures/mosh.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour
+                </p>
+                <p class="video-author">
+                  Programming with Mosh
+                </p>
+                <p class="video-status">
+                  13M views . 6 years ago
+                </p>
+              </div>
             </div>
-            <div class="video-info">
-              <p class="video-title">
-                JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour
-              </p>
-              <p class="video-author">
-                Programming with Mosh
-              </p>
-              <p class="video-status">
-                13M views . 6 years ago
-              </p>
-            </div>
-          </div>
+          </a>
         </div>
 
         <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/venom.webp">
-            <div class="video-time">
-              2:52
+          <a class="link" href="https://www.youtube.com/watch?v=aFsGDcy-6hc&pp=ygUfVmVub206IFRoZSBMYXN0IERhbmNlIHwgVHJhaWxlcg%3D%3D">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/venom.webp">
+              <div class="video-time">
+                2:52
+              </div>
             </div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel pictures/marvel.jpg">
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel pictures/marvel.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Venom: The Last Dance | Trailer
+                </p>
+                <p class="video-author">
+                  Marvel Entertainment
+                </p>
+                <p class="video-status">
+                  7.8M views 5 days ago
+                </p>
+              </div>
             </div>
-            <div class="video-info">
-              <p class="video-title">
-                Venom: The Last Dance | Trailer
-              </p>
-              <p class="video-author">
-                Marvel Entertainment
-              </p>
-              <p class="video-status">
-                7.8M views 5 days ago
-              </p>
-            </div>
-          </div>
+          </a>
         </div>
 
         <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/ios18.jpg">
-            <div class="video-time">
-              6:20
+          <a class="link" href="https://www.youtube.com/watch?v=T6Cw96Z-nR4&pp=ygUNY2hhbnV4IGlvcyAxOA%3D%3D">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/ios18.jpg">
+              <div class="video-time">
+                6:20
+              </div>
             </div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel pictures/chanux.jpg">
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel pictures/chanux.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  How to Install IOS 18 on any iPhone Sinhala Sri Lanka
+                </p>
+                <p class="video-author">
+                  Chanux Bro
+                </p>
+                <p class="video-status">
+                  36K views 10 hours ago
+                </p>
+              </div>
             </div>
-            <div class="video-info">
-              <p class="video-title">
-                How to Install IOS 18 on any iPhone Sinhala Sri Lanka
-              </p>
-              <p class="video-author">
-                Chanux Bro
-              </p>
-              <p class="video-status">
-                36K views 10 hours ago
-              </p>
-            </div>
-          </div>
+          </a>
         </div>
 
         <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/figma.webp">
-            <div class="video-time">
-              10:56
+          <a class="link" href="https://www.youtube.com/watch?v=OjEg0IBR_ak&t=2s&pp=ygUhVGhlIEVhc2llc3QgV2F5IHRvIEJ1aWxkIFdlYnNpdGVz">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/figma.webp">
+              <div class="video-time">
+                10:56
+              </div>
             </div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel pictures/sajid.jpg">
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel pictures/sajid.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  The Easiest Way to Build Websites
+                </p>
+                <p class="video-author">
+                  Sajid
+                </p>
+                <p class="video-status">
+                  472K views 4 months ago
+                </p>
+              </div>
             </div>
-            <div class="video-info">
-              <p class="video-title">
-                The Easiest Way to Build Websites
-              </p>
-              <p class="video-author">
-                Sajid
-              </p>
-              <p class="video-status">
-                472K views 4 months ago
-              </p>
-            </div>
-          </div>
+          </a>
         </div>
 
         <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/macapps.jpg">
-            <div class="video-time">
-              7:01
+          <a class="link" href="https://www.youtube.com/watch?v=ARfBLKzRQY4&pp=ygUhOSBQb3dlcmZ1bCBNYWMgQXBwcyBpbiA3IE1pbnV0ZXMu">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/macapps.jpg">
+              <div class="video-time">
+                7:01
+              </div>
             </div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel pictures/MacVince.jpg">
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel pictures/MacVince.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  9 Powerful Mac Apps in 7 Minutes.
+                </p>
+                <p class="video-author">
+                  MacVince
+                </p>
+                <p class="video-status">
+                  162K views 2 months ago
+                </p>
+              </div>
             </div>
-            <div class="video-info">
-              <p class="video-title">
-                9 Powerful Mac Apps in 7 Minutes.
-              </p>
-              <p class="video-author">
-                MacVince
-              </p>
-              <p class="video-status">
-                162K views 2 months ago
-              </p>
-            </div>
-          </div>
+          </a>
         </div>
 
         <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/aruma.jpg">
-            <div class="video-time">
-              3:53
+          <a class="link" href="https://www.youtube.com/watch?v=_2CPzbCAS4A&list=RD_2CPzbCAS4A&start_radio=1">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/aruma.jpg">
+              <div class="video-time">
+                3:53
+              </div>
             </div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel pictures/drillteam.jpg">
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel pictures/drillteam.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Drill Team Presents Aruma (අරුම) by Manasick | Official Music Video
+                </p>
+                <p class="video-author">
+                  Drill Team Westnahira
+                </p>
+                <p class="video-status">
+                  244K views  5 months ago
+                </p>
+              </div>
             </div>
-            <div class="video-info">
-              <p class="video-title">
-                Drill Team Presents Aruma (අරුම) by Manasick | Official Music Video
-              </p>
-              <p class="video-author">
-                Drill Team Westnahira
-              </p>
-              <p class="video-status">
-                244K views  5 months ago
-              </p>
-            </div>
-          </div>
+          </a>
         </div>
 
         <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/applepark.jpg">
-            <div class="video-time">
-              18:12
+          <a class="link" href="https://www.youtube.com/watch?v=VbeM8Lf7s5A&pp=ygUObmVvIGFwcGxlIHBhcms%3D">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/applepark.jpg">
+              <div class="video-time">
+                18:12
+              </div>
             </div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel pictures/neo.jpg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                The Genius Design of Apple Park
-              </p>
-              <p class="video-author">
-                neo
-              </p>
-              <p class="video-status">
-                8.8M views 1 year ago
-              </p>
-            </div>
-          </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel pictures/neo.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  The Genius Design of Apple Park
+                </p>
+                <p class="video-author">
+                  neo
+                </p>
+                <p class="video-status">
+                  8.8M views 1 year ago
+                </p>
+              </div>
+            </div>  
+          </a>
         </div>
 
         <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/galaxy.jpg">
-            <div class="video-time">
-              2:36
+          <a class="link" href="https://www.youtube.com/watch?v=y7UH_cvzInU&pp=ygUcc2Ftc3VuZyB1cyBnYWxheHkgYm9vazQgZWRnZQ%3D%3D">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/galaxy.jpg">
+              <div class="video-time">
+                2:36
+              </div>
             </div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel pictures/samsung.jpg">
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel pictures/samsung.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Galaxy Book4 Edge: Unveiling | Samsung
+                </p>
+                <p class="video-author">
+                  Samsung US
+                </p>
+                <p class="video-status">
+                  92K views  1 month ago
+                </p>
+              </div>
             </div>
-            <div class="video-info">
-              <p class="video-title">
-                Galaxy Book4 Edge: Unveiling | Samsung
-              </p>
-              <p class="video-author">
-                Samsung US
-              </p>
-              <p class="video-status">
-                92K views  1 month ago
-              </p>
-            </div>
-          </div>
+          </a>
         </div>
 
         <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/tiger.webp">
-            <div class="video-time">
-              44:44
+          <a class="link" href="https://www.youtube.com/watch?v=Rwe5Aw3KPHY&t=1s&pp=ygU0V0lMRCBXT1JMRCBET0xCWSBWSVNJT07ihKIgfCBFWFRSRU1FIENPTE9SUyBbOEsgSERSXQ%3D%3D">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/tiger.webp">
+              <div class="video-time">
+                44:44
+              </div>
             </div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel pictures/8k.jpg">
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel pictures/8k.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  WILD WORLD DOLBY VISION™ | EXTREME COLORS [8K HDR]
+                </p>
+                <p class="video-author">
+                  8K Paradise
+                </p>
+                <p class="video-status">
+                  19M views  8 months ago
+                </p>
+              </div>
             </div>
-            <div class="video-info">
-              <p class="video-title">
-                WILD WORLD DOLBY VISION™ | EXTREME COLORS [8K HDR]
-              </p>
-              <p class="video-author">
-                8K Paradise
-              </p>
-              <p class="video-status">
-                19M views  8 months ago
-              </p>
-            </div>
-          </div>
+          </a>
         </div>
 
         <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/missmonique.webp">
-            <div class="video-time">
-              1:10:35
+          <a class="link" href="https://www.youtube.com/watch?v=0AhFghYZQ74&t=2151s">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/missmonique.webp">
+              <div class="video-time">
+                1:10:35
+              </div>
             </div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel pictures/missmonique.jpg">
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel pictures/missmonique.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Miss Monique - MiMo Podcast 042 [Melodic Techno & House DJ Mix]
+                </p>
+                <p class="video-author">
+                  Miss Monique
+                </p>
+                <p class="video-status">
+                  2M views  9 months ago
+                </p>
+              </div>
             </div>
-            <div class="video-info">
-              <p class="video-title">
-                Miss Monique - MiMo Podcast 042 [Melodic Techno & House DJ Mix]
-              </p>
-              <p class="video-author">
-                Miss Monique
-              </p>
-              <p class="video-status">
-                2M views  9 months ago
-              </p>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
       <!-- video preview end -->

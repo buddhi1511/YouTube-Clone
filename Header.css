@@ -10,7 +10,6 @@
 .left-section {
   height: 50px;
   width: 300px;
-  /* background-color: lightblue; */
   display: flex;
   align-items: center;
   padding-left: 10px;
@@ -34,7 +33,6 @@
 
 .menu-icon {
   width: 65%;
-  /* margin-left: 6%; */
   padding: 5px;
 }
 
@@ -45,7 +43,6 @@
 
 .middle-section {
   height: 50px;
-  /* background-color: lightpink; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,18 +107,13 @@
 .right-section {
   height: 50px;
   width: 300px;
-  /* background-color: lightblue; */
   display: flex;
   justify-content: end;
   align-items: center;
   padding-right: 2%;
 }
 
-.upload-icon {
-  width: 25px;
-  margin-right: 20px;
-}
-
+.upload-icon,
 .notifications-icon {
   width: 25px;
   margin-right: 20px;
@@ -129,4 +121,43 @@
 
 .profile-icon {
   width: 25px;
+}
+
+.search-button,
+.voice-search-button,
+.upload-container,
+.notifications-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.upload-container .tooltip,
+.notifications-container .tooltip {
+  position: absolute;
+  background-color: #cccccc;
+  padding: 8px 6px 8px 6px;
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  bottom: -45px;
+  transition: opacity 0.15s;
+  border-radius: 5px;
+}
+
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload-container:hover .tooltip,
+.notifications-container:hover .tooltip {
+  opacity: 1;
+}
+
+.upload-container:hover,
+.notifications-container,
+.profile-container {
+  cursor: pointer;
 }
